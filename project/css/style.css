@@ -1,0 +1,45 @@
+:root{
+    --primary-color: #ffc300;
+}
+
+
+
+
+@font-face {
+    font-family: 'vazir';
+    src: url(../Font/Vazir-Medium.ttf);
+
+    font-family: 'coco';
+    src: url(../Font/Cocogoose-Pro-Regular-trial.ttf);
+}
+body{
+    font-family: 'vazir';
+}
+
+/* ------------utility classes------------ */
+.en-text{
+    font-family: 'coco';
+}
+.icon{
+    color: rgb(0, 0, 0);
+    background-color: rgb(153, 153, 153);
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 10px;
+}
+.prime{
+    color: var(--primary-color);
+}
+.bg-main{
+    background: #212529;
+}
+.txt-justify{
+    text-align: justify;
+}
+#btn{
+    display: block;
+    text-align: center;
+}
+#icon-brand{
+    width: 50%;
+}
